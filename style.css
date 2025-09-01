@@ -67,6 +67,7 @@ button {
     font-style: normal;
     cursor: pointer;
     transition: 0.3s;
+    -webkit-tap-highlight-color: transparent;
 }
 
 span{
@@ -115,6 +116,7 @@ span{
     cursor: pointer;
     position: absolute;
     right: 6%;
+    -webkit-tap-highlight-color: transparent;
 }
 #copyboardDois{
     width: 1.6rem;
@@ -124,6 +126,7 @@ span{
     cursor: pointer;
     position: absolute;
     right: 6%;
+    -webkit-tap-highlight-color: transparent;
 }
 button:hover{
    transform: scale(1.1);
