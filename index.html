@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gerador de Senha</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="logo">
+            <img src="images/KeyGen.svg" alt="">
+        </div>
+        <div class="top">
+            <h1>Gere uma</h1>
+            <h1 id="green-h1">senha aleatória</h1>
+            <p>Proteja suas contas com senhas fortes.</p>
+         </div> 
+        <button  onclick="gerarSenhas()">Gerar as senhas</button>
+        <span></span>
+        <div class="senhas">
+            <div class="senha" >
+                <p id="senhaUm"></p>
+                <img id="copyboardUm" src="images/clipboard-svgrepo-com.svg" alt="">
+            </div>
+            <div class="senha" ><img id="copyboardDois" src="images/clipboard-svgrepo-com.svg" alt="">
+                <p id="senhaDois"></p>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</html>
